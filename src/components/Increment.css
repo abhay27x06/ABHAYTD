@@ -1,0 +1,15 @@
+.div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    box-sizing: border-box;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(140, 230, 140);
+}

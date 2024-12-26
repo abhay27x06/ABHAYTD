@@ -1,0 +1,48 @@
+*{
+    color: white;
+}
+.parentDiv{
+    /* box-shadow: 1px 1px 3px black; */
+    cursor: pointer;
+    width: 25vw;
+    height: 20vh;
+    border-radius: 50vw;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 30px;
+}
+.grandDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.childDiv{
+    /* box-shadow: 1px 1px 3px black; */
+    border: 5px solid white;
+    width: 8vw;
+    height: 14vh;
+    border-radius: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: 0.2s;
+}
+.ON{
+    background-color: rgba(44, 247, 44, 0.492);
+}
+.OFF{
+    background-color: rgba(247, 76, 76, 0.557);
+}
+.on{
+    background-color: rgba(42, 249, 42, 0.487);
+    translate: 185px;
+}
+.off{
+    background-color: rgba(247, 76, 76, 0.493);
+    translate: 0px;
+}
