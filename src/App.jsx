@@ -9,6 +9,7 @@ import DisplayValue from './components/DisplayValue'
 import Toggle from './components/Toggle'
 import Todo from './projects/todoList/Todo'
 import Counter from './components/Counter'
+import Register from './components/Register'
 function App() {
   const [name, setName]=useState('');
   return (
@@ -24,7 +25,8 @@ function App() {
     // </div>
     // <Toggle />
     // <Todo />
-    <Counter />
+    // <Counter />
+    <Register />
   )
 }
 

@@ -1,0 +1,64 @@
+.parDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+    background-color: rgba(0, 0, 0, 0.222);
+}
+.sectionDiv{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.inDiv{
+    margin: 0px 5px;
+}
+.colSpan{
+    color: red;
+}
+.regForm{
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+}
+.head3{
+    font-size: 3vw;
+}
+.inputForm{
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    width: 100%;
+}
+.tnpAnchor{
+    color: red;
+    text-decoration: none;
+}
+.formBtnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+.formBtn{
+    outline: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
