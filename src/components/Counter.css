@@ -1,0 +1,51 @@
+.countDivGrand{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.countDivPar{
+    min-width: 40vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw;
+}
+.head3{
+    font-size: 6vw;
+}
+.countDiv{
+    font-size: 2vw;
+}
+.stepDiv{
+    font-size: 2vw;
+}
+.stepInput{
+    font-size: 1.2vw;
+    padding: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 4px black inset;
+    border-radius: 5px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn{
+    padding: 13px;
+    width: 15vw;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    background-color: rgba(0, 0, 0, 0.451);
+    color: white;
+}

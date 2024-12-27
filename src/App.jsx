@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-// import './App.css'
 import { NetflixSeries } from './components/netflixSeries'
 import Parent from './components/Parent'
 import Increment from './components/Increment'
@@ -9,6 +8,7 @@ import InputValue from './components/InputValue'
 import DisplayValue from './components/DisplayValue'
 import Toggle from './components/Toggle'
 import Todo from './projects/todoList/Todo'
+import Counter from './components/Counter'
 function App() {
   const [name, setName]=useState('');
   return (
@@ -23,7 +23,8 @@ function App() {
     // <DisplayValue name={name}/>
     // </div>
     // <Toggle />
-    <Todo />
+    // <Todo />
+    <Counter />
   )
 }
 
