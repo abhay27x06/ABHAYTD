@@ -1,0 +1,26 @@
+.pikachuDivPar{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.pikachuDiv{
+    border: 2px solid black;
+    padding: 2vw;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px black;
+}
+.pikachuDiv:hover{
+    background-color: rgba(0, 0, 0, 0.163);
+}
+.nameHead{
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(205, 34, 34);
+}

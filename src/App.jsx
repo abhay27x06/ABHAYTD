@@ -12,7 +12,7 @@ import Counter from './components/Counter'
 import Register from './components/Register'
 import Timer from './components/Timer'
 import FetchApi from './components/FetchApi'
-import Pikachu from './components/Pikachu'
+import Pikachu from './pikachu/Pikachu'
 function App() {
   // const [name, setName]=useState('');
   const [date, setDate]=useState('');
