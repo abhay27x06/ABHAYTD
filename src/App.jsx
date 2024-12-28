@@ -12,6 +12,7 @@ import Counter from './components/Counter'
 import Register from './components/Register'
 import Timer from './components/Timer'
 import FetchApi from './components/FetchApi'
+import Pikachu from './components/Pikachu'
 function App() {
   // const [name, setName]=useState('');
   const [date, setDate]=useState('');
@@ -28,23 +29,7 @@ function App() {
     }
   }, []);
   return (
-    // <div className='App'>
-    // <section className='section'>Best Of Netflix...!</section>
-    // <NetflixSeries />
-    // </div>
-    // <Parent />
-    // <Increment />
-    // <div className='parApp'>
-    // <InputValue name={name} setName={setName}/>
-    // <DisplayValue name={name}/>
-    // </div>
-    // <Toggle />
-    // <Todo />
-    // <Counter />
-    // <Register />
-    // <h3 style={{textAlign: 'center'}}>Time : {date}</h3>
-    // <Timer />
-    <FetchApi />
+    <Pikachu />
   )
 }
 
