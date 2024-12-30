@@ -13,6 +13,8 @@ import Register from './components/Register'
 import Timer from './components/Timer'
 import FetchApi from './components/FetchApi'
 import Pikachu from './pikachu/Pikachu'
+import { DataContext, DataContextProvider } from './components/DataContext'
+import DataContextUse from './components/DataContextUse'
 function App() {
   // const [name, setName]=useState('');
   const [date, setDate]=useState('');
@@ -29,7 +31,9 @@ function App() {
     }
   }, []);
   return (
-    <Pikachu />
+    <DataContextProvider>
+      <DataContextUse />
+    </DataContextProvider>
   )
 }
 
