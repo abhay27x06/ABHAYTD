@@ -1,39 +1,22 @@
-import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { NetflixSeries } from './components/netflixSeries'
-import Parent from './components/Parent'
-import Increment from './components/Increment'
-import InputValue from './components/InputValue'
-import DisplayValue from './components/DisplayValue'
-import Toggle from './components/Toggle'
-import Todo from './projects/todoList/Todo'
-import Counter from './components/Counter'
-import Register from './components/Register'
-import Timer from './components/Timer'
-import FetchApi from './components/FetchApi'
-import Pikachu from './pikachu/Pikachu'
-import { DataContext, DataContextProvider } from './components/DataContext'
-import DataContextUse from './components/DataContextUse'
-function App() {
-  // const [name, setName]=useState('');
-  const [date, setDate]=useState('');
-  useEffect(()=>{
-    const interval=setInterval(()=>{
-      const updatedDate=new Date();
-      setDate(updatedDate.toLocaleTimeString());
-      console.log(updatedDate.toLocaleTimeString());
-      
-    }, 1000);
-
-    return ()=>{
-      clearInterval(interval);
-    }
-  }, []);
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import {NetflixSeries} from './components/NetflixSeries'
+import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './components/About'
+import ErrorPage from './components/ErrorPage'
+const App = () => {
   return (
-    <DataContextProvider>
-      <DataContextUse />
-    </DataContextProvider>
+    <>
+    <Header />
+    <Routes>
+      <Route path='*' element={<ErrorPage/ >}/>
+      <Route path='/' element={<NetflixSeries />}/>
+      <Route path='/about' element={<About/ >}/>
+    </Routes>
+    <Footer />
+    </>
   )
 }
 

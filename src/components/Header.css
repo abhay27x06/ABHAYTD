@@ -1,0 +1,35 @@
+.headerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.759);
+}
+.karFlixDivPar{
+    font-size: 2vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.navLink{
+    text-decoration: none;
+    color: white;
+}
+.navLink:hover{
+    color: red;
+}
+.active{
+    color: red;
+}
+.activeLogo{
+    color: white;
+}
+.linksDiv{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3vw;
+}
